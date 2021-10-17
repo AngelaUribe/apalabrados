@@ -40,11 +40,7 @@ class TextController extends Controller
             return back();
         }
 
-<<<<<<< HEAD
         $ch = '#%áéíóúÁÉÍÓÚ,.;@?¿/*$&"()=¡!-´';
-=======
-        $ch = '#%áéíóúÁÉÍÓÚ,.;@?¿/*$&"()=¡!-';
->>>>>>> origin/master
         $b = '';
 
         if ($b = strpbrk($request->texto, $ch)) {
