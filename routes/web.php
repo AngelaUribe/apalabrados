@@ -15,7 +15,7 @@ use App\Http\Controllers\TextController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/', [TextController::class,'index']);
