@@ -4,7 +4,7 @@
 
 Bienvenido a Apalabrados:
 
-Esta aplicación analizará el dato que ingreses luego de hacer clic en el botón GO! y lo clasificará de acuerdo a las siguientes tablas:
+Esta aplicación analizará el dato que ingreses luego de hacer clic en el botón GO! y la clasificará de acuerdo a las siguientes tablas:
 
 
 - Números: Guardará el número registrado y mostrará el valor acumulado de los anteriores números registrados.
