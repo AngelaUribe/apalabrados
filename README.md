@@ -6,32 +6,39 @@ Bienvenido a Apalabrados:
 
 Esta aplicación analizará el dato que ingreses luego de hacer clic en el botón GO! y la clasificará de acuerdo a las siguientes tablas:
 
-
 - Números: Guardará el número registrado y mostrará el valor acumulado de los anteriores números registrados.
 - Texto: Registrará la cadena de caracteres que ingreses.
 - Caracteres: Si escribes algún caractere especial, éste será clasificado en la columna caracter, el texto adicional será descartado.
 
+- **[Aplicación](https://vehikl.com/)**
 
-## Laravel Sponsors
+## Indicaciones para descargar el repositorio
+Una vez clonado el repositorio en Laravel local, debes ejecutar los siguientes pasos:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### Instalar dependencias
+Abrir una terminal en la carpeta del proyecto y ejecutar
+composer install
 
-### Premium Partners
+Instalar las dependencias de NPM definidas en el archivo package.json usando:
+npm install
 
-- **[Vehikl](https://vehikl.com/)**
+### Actualizar el archivo .env
+configurar la conexión de la bd ejemplo:
 
-## Contributing
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=laravel_project
+DB_USERNAME=root
+DB_PASSWORD=secret
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Generar una clave
+La clave de aplicación es una cadena aleatoria almacenada en la clave APP_KEY dentro del archivo .env. Notarás que también falta.
+Para crear la nueva clave e insertarla automáticamente en el .env, ejecutaremos:
+php artisan key:generate
 
-## Code of Conduct
+### Migrar 
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Por último, ejecutar las migraciones para que se generen las tablas con:
+php artisan migrate 
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
