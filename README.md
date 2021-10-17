@@ -10,7 +10,7 @@ Esta aplicación analizará el dato que ingreses luego de hacer clic en el botó
 - Texto: Registrará la cadena de caracteres que ingreses.
 - Caracteres: Si escribes algún caractere especial, éste será clasificado en la columna caracter, el texto adicional será descartado.
 
-- **[Aplicación](https://vehikl.com/)**
+- **[Aplicación](http://apalabrados.appincdevs.com/public/)**
 
 ## Indicaciones para descargar el repositorio
 Una vez clonado el repositorio en Laravel local, debes ejecutar los siguientes pasos:
