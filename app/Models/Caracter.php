@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Caracter extends Model
 {
-    use HasFactory;
+    protected $fillable = ['id','numero','acumulado',];
 }

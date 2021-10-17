@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Numero extends Model
 {
     use HasFactory;
+    protected $fillable = ['id','numero','acumulado',];
 }

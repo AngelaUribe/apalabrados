@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTextoTable extends Migration
+class CreateTextosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateTextoTable extends Migration
      */
     public function up()
     {
-        Schema::create('texto', function (Blueprint $table) {
+        Schema::create('textos', function (Blueprint $table) {
             $table->id();
             $table->string('texto');
             $table->char('inicial');
@@ -29,6 +29,6 @@ class CreateTextoTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('texto');
+        Schema::dropIfExists('textos');
     }
 }
