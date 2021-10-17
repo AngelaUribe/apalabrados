@@ -2,6 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Apalabrados</title>
@@ -86,7 +87,6 @@
                                 @endforeach
                                 </tbody>
                             </table>
-
                             {{ $texts->links()}}
 
                         </div>
@@ -121,13 +121,13 @@
                             <table id="Table1" class="table table-striped ">
                                 <thead>
                                 <tr>
-                                    <th>Caracter</th>
+                                    <th>Caracteres</th>
                                 </tr>
                                 </thead>
                                 <tbody>
-                                @foreach($texts as $text)
+                                @foreach($characters as $character)
                                     <tr>
-                                        <td>{{$text->texto}}</td>
+                                        <td>{{$character->caracteres}}</td>
                                     </tr>
                                 @endforeach
                                 </tbody>
@@ -144,7 +144,7 @@
 
         <div class="flex justify-center mt-4 ">
 
-            <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
+            <div class="ml-4 text-center text-sm text-gray-500 sm:text-right ">
                 <a href="https://github.com/AngelaUribe">
                     <img src="{{ asset('images/github-icon.jpg')}}" width="30px" alt="Git">
                 </a>
