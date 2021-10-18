@@ -42,3 +42,9 @@ php artisan key:generate
 Por último, ejecutar las migraciones para que se generen las tablas con:
 php artisan migrate 
 
+
+### Diagrama de Flujo
+
+<p align="center"><a href="https://angelauribe.github.io/apalabrados/" target="_blank"><img src="https://github.com/AngelaUribe/apalabrados/blob/master/public/images/diagrama.jpg" width="500"></a></p>
+
+
