@@ -1,4 +1,4 @@
-<p align="center"><a href="https://angelauribe.github.io/apalabrados/" target="_blank"><img src="https://github.com/AngelaUribe/apalabrados/blob/master/public/images/banner.png?raw=true" width="450"></a></p>
+<p align="center"><a href="https://angelauribe.github.io/apalabrados/" target="_blank"><img src="https://github.com/AngelaUribe/apalabrados/blob/master/public/images/banner.png?raw=true" width="500"></a></p>
 
 ## Instrucciones
 
