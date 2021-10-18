@@ -8,7 +8,7 @@ Esta aplicación analizará el dato que ingreses luego de hacer clic en el botó
 
 - Números: Guardará el número registrado y mostrará el valor acumulado de los anteriores números registrados.
 - Texto: Registrará la cadena de caracteres que ingreses.
-- Caracteres: Si escribes algún caractere especial, éste será clasificado en la columna caracter, el texto adicional será descartado.
+- Caracteres: Si escribes algún caracter especial, éste será clasificado en la columna caracter, el texto adicional será descartado.
 
 - **[En este vínculo puedes acceder a la Aplicación](http://apalabrados.appincdevs.com/public/)** o usa esta url: http://apalabrados.appincdevs.com/public/
 
@@ -45,6 +45,6 @@ php artisan migrate
 
 ### Diagrama de Flujo
 
-<p align="center"><a href="https://angelauribe.github.io/apalabrados/" target="_blank"><img src="https://github.com/AngelaUribe/apalabrados/blob/master/public/images/diagrama.jpg" width="500"></a></p>
+<p align="center"><a href="https://angelauribe.github.io/apalabrados/" target="_blank"><img src="https://github.com/AngelaUribe/apalabrados/blob/master/public/images/diagrama.jpg?raw=true" width="500"></a></p>
 
 
